@@ -1,3 +1,5 @@
+/*Main Tag Code*/
+
 body {
     background-color: #293241;
     color: #ededed;
@@ -19,6 +21,8 @@ p {
     text-align: center;
 }
 
+/*Main Container Code*/
+
 .flex-container1 {
     display: flex;
     background-color: silver;
@@ -34,7 +38,15 @@ p {
     background-color: silver;
     flex-direction: row;
     align-items: center;
+
 }
+.flex-container4 {
+    display: flex;
+    background-color: silver;
+}
+
+/*Main Item Code*/
+
 .flex-container1 > div {
     text-align: center;
     background-color: gold;
@@ -75,15 +87,13 @@ p {
     border-style: solid;
 }
 
-.flex-container4 {
-    display: flex;
-    background-color: silver;
-}
+/*EC Code*/
 
 .flex-container4 > div:hover {
     color: white;
     background-color: #00d7ff;
-    border-style: dashed;
-    border: #2f7e5f;
-    width: 60%
+    border: #5301aa;
+    border-style:ridge;
+    width: 75%;
+    transition: 0.25s;
 }
