@@ -15,6 +15,7 @@ h1 {
 h2 {
     font-size: 25px;
     color: #c0c0c0;
+    text-align: center;
 }
 
 p {
@@ -27,17 +28,20 @@ p {
     display: flex;
     background-color: silver;
     flex-direction: column;
+    border: ridge 2px #999999;
 } 
 .flex-container2 {
     display: flex;
     background-color: silver;
     flex-wrap:wrap;
+    border: ridge 2px #999999;
 }
 .flex-container3 {
     display: flex;
     background-color: silver;
     flex-direction: row;
     align-items: center;
+    border: ridge 2px #999999;
 
 }
 .flex-container4 {
