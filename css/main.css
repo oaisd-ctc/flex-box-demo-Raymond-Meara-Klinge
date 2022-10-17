@@ -1,0 +1,104 @@
+/*Main Tag Code*/
+
+body {
+    background-color: #293241;
+    color: #ededed;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #20e627;
+}
+
+h2 {
+    font-size: 25px;
+    color: #c0c0c0;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/*Main Container Code*/
+
+.flex-container1 {
+    display: flex;
+    background-color: silver;
+    flex-direction: column;
+    border: ridge 2px #999999;
+} 
+.flex-container2 {
+    display: flex;
+    background-color: silver;
+    flex-wrap:wrap;
+    border: ridge 2px #999999;
+}
+.flex-container3 {
+    display: flex;
+    background-color: silver;
+    flex-direction: row;
+    align-items: center;
+    border: ridge 2px #999999;
+
+}
+.flex-container4 {
+    display: flex;
+    background-color: silver;
+}
+
+/*Main Item Code*/
+
+.flex-container1 > div {
+    text-align: center;
+    background-color: gold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    color: black;
+    width: 60px;
+}
+.flex-container2 > div {
+    text-align: center;
+    background-color: #ffd700;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    color: black;
+    width: 60px;
+}
+.flex-container3 > div {
+    text-align: center;
+    background-color: gold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    color: black;
+    width: 60px;
+}
+
+.flex-container4 > div {
+    text-align: center;
+    background-color: gold;
+    padding: 20px;
+    font-size: 100px;
+    color: black;
+    height: 125px;
+    width: 31%;
+    border: #aae053;
+    border-style: solid;
+    transition: 0.25s;
+}
+
+/* EC Code */
+
+.flex-container4 > div:hover {
+    color: white;
+    background-color: #00d7ff;
+    border: #5301aa;
+    border-style:ridge;
+    width: 75%;
+    transition: 0.25s;
+}
