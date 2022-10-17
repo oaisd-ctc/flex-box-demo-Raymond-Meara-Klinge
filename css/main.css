@@ -89,6 +89,7 @@ p {
     width: 31%;
     border: #aae053;
     border-style: solid;
+    transition: 0.25s;
 }
 
 /* EC Code */
